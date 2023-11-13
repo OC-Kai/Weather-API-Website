@@ -12,6 +12,6 @@ How to Contribute: N/A
 
 Github Repository Link: https://github.com/OC-Kai/Weather-API-Website
 
-Live Link: 
+Live Link: https://oc-kai.github.io/Weather-API-Website/
 
 ![Screenshot](./assets/images/Screenshot.png?raw=true)

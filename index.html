@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Type the name of a city to check the weather!</h1>
+    </header>
+   
+
+    <input id = "search" class = "searchbar" placeholder = "Enter a city..."></input>
+    <button id = "searchBtn">Search</button>
+    <p id = "previous">Previous Searches: </p>
+
+    <div id="city"></div>
+    <main id = "results"></main>
+    
+
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.10/dayjs.min.js"></script>
+<script src="./assets/js/script.js"></script>
+
+</body>
+</html>

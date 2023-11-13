@@ -1,0 +1,81 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/weather.jpg");
+    background-size: 100%;
+}
+
+header {
+    
+    color: white;
+    padding: 10px;
+    background-color: rgb(228, 182, 121);
+    opacity: .9;
+    border: solid rgb(153, 112, 22) 5px;
+    border-radius: 5px;
+    
+}
+
+#search {
+    width: 10%;
+    margin: 20px 20px;
+    font-size: 30px;
+}
+
+#searchBtn {
+
+    width: 10%;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    opacity: .9;
+    background-color: rgb(228, 182, 121);
+    border: solid rgb(153, 112, 22) 3px;
+    border-radius: 5px;
+}
+
+#results {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#city {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+
+.weatherBox {
+
+    color: white;
+    background: rgb(2,0,36);
+    line-height: 1.3;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 20%, rgba(0,212,255,1) 100%);
+    border: solid rgb(228, 182, 121) 5px;
+    border-radius: 5px;
+    font-size: 30px;
+    width: 15%;
+    margin: 2% 2%;
+    text-align: center;
+    
+}
+
+#previous {
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.pastSearch {
+    text-decoration: underline;
+    list-style: none;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    width: 5%;
+}
